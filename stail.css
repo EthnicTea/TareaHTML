@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(210,222,196);
+    background: radial-gradient(circle, rgba(210,222,196,1) 0%, rgba(148,187,233,1) 100%);
+  }
+  /*Editamos por clase la barra de navegación!*/
+  .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ /*Esto es para cuando el usuario ponga el cursor, se oscurezca la opción seleccionada :3*/  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+
+  .navbar ul {
+    float: right;
+  }
+
+header {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-wrapper {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.text-wrapper {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-style: inset;
+  border-width: 1px;
+}
